@@ -1,4 +1,4 @@
-def calculator do 
+def calculator 
   first_number = get_variable_from_file('./calculator.rb', "first_number")
   second_number = get_variable_from_file('./calculator.rb', "second_number") && != 0
   sum = first_number + second_number
